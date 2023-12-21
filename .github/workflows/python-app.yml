@@ -44,4 +44,4 @@ jobs:
 
       - name: Deploy to AWS S3
         run: |
-          aws s3 sync . s3://spwdev-hello-cloud --delete
+          aws s3 sync . s3://spwdev-hello-cloud
